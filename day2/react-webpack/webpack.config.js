@@ -1,4 +1,5 @@
 var path = require('path');
+var webpack = require('webpack');
 
 module.exports = {
   entry: "./src/index.js",
@@ -21,6 +22,10 @@ module.exports = {
   devServer: {
     contentBase: path.join(__dirname, 'dist'),
     compress: true,
-    port: 8989
-  }
+    port: 8989,
+    hot: true
+  },
+  plugins:[
+    new webpack.HotModuleReplacementPlugin()
+  ]
 };
