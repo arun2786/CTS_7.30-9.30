@@ -31,3 +31,5 @@ lib-cov
 /**/targets/
 /**/.recommenders/
 /**/bin/
+
+TOC.*
