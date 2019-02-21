@@ -1,0 +1,5 @@
+http://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/
+https://github.com/redux-saga/redux-saga
+https://www.electrode.io/docs/get_started.html
+https://facebook.github.io/create-react-app/docs/adding-typescript
+https://github.com/emotion-js/emotion
